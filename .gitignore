@@ -1,0 +1,11 @@
+*.blend1
+*.blend2
+renders
+renders/*
+site-packages
+site-packages/*
+*site-packages
+*site-packages/*
+
+
+
