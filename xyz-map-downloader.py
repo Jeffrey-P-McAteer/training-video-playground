@@ -35,7 +35,7 @@ num_x_tiles = pow(2, z_level)
 num_y_tiles = pow(2, z_level)
 
 out_map_img_width = int(num_x_tiles * single_tile_width_px)
-out_map_img_height = int(num_x_tiles * single_tile_height_px)
+out_map_img_height = int(num_y_tiles * single_tile_height_px)
 
 print(f'Output map will be {out_map_img_width}x{out_map_img_height}')
 
